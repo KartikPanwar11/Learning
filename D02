@@ -1,0 +1,52 @@
+Diffn b/w html and html 5
+what is a meta tag  like charset etccc
+why script tagg is in the browser while its not in the html
+what is differ why actually we use it
+
+
+*Head tags stores the info of ur proects like dependencies like
+  style icons fonts etc (external dependencies like wht a developer gives)
+  2ndly for optimaazation like for browser and developer
+
+  Versel and netlify  frontend
+  Render backend
+  for deployment4
+tag vs elements
+use of meta tags
+
+block vs inline
+why span uses certain width but div takes whole width
+sementic tags
+
+
+git init
+git add .
+git status
+git commit -m "with a message"
+-u when u create it for the firts time
+
+
+create branch
+  git branch
+  git branch dashboard
+  git checkout
+  add . 
+  commit -m "custom mg of what u have done"
+  push
+
+
+  merge conflics (red it wps se its weak of urs)
+
+  git merge main 
+
+
+navigation of branch
+modift and push the code
+merging the branch 
+
+
+like if it gets deleted or joined an ord
+then just 
+ git clone and the link
+  
+check logs git log
