@@ -3,7 +3,7 @@ diff b/w html and programming language
 typography :- 
 tag element and attribute
 formatted tag
-<pre> tagg
+<pre> tags
 
 width attribute in image tag
 
@@ -18,7 +18,7 @@ list type
 ul>li*number of lists
  ul>li*5${item $}
 
- table taggs
+ table tags
 
 
 Git:- 
@@ -29,3 +29,9 @@ status
 commit -m "message"
 push
 
+init 
+add 
+status 
+commit 
+branch 
+remote add origin 
