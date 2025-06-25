@@ -1,0 +1,41 @@
+SPiral
+cascading phenomenon
+How will it decide which one to choose and how the conflict wil be resolved 
+waterfall model 
+
+WHAT 
+WHEN 
+How
+
+JS is parser blocked
+How css is rendered
+
+Attribute selectors
+Pseudo class selectors
+nth child selector
+hover
+before and after
+desendent selector ">"
+group selector
+
+Total 8 selector 
+
+
+Colors type :-
+Color name  red,black,green
+RGB rgb(0,0,0)
+RGBA(alpha or opacity)
+HEX #
+HSL(hue saturation lightness)A 
+
+layout engine
+absolute                   relative
+
+1/96 pixel ;- 1 inch         %
+                            em
+                            rem
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{background-color: beige;}
+         
+        h1{
+            color: blueviolet;
+        }
+
+        .para{
+            font-size: 20px;
+            color: green;
+        }
+
+        #p02{
+            font-size: 30px;
+        }
+
+        a{
+            color: red;
+        }
+
+        p:nth-child(odd){
+            font-style: italic;
+        }
+
+        a:hover{
+            color:black
+            /* content:"anything to put before and after"
+                and same as on before*/
+        }
+
+        h1::after{
+            content: "(Hell0)";
+        }
+
+        input[name="mail"]{
+            color: red;
+        }
+        input::placeholder{
+            color: purple;
+        }
+
+        li::marker{
+            color: lch(32.3% 133.82 306.29 / 0.68);
+        }
+
+       .div01>h2{
+        color: aquamarine;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <p class="para">Paragraph one</p>
+    <p class="para" id="p02">Paragraph two</p>
+
+    <a href="www.google.com/">Google</a>
+
+    <Br></Br>
+    <input type="text" name="mail" placeholder="Email">
+
+    <ul>
+        <li>01</li>
+        <li>02</li>
+        <li>03</li>
+        <li>04</li>
+    </ul>
+    <div class="div01">
+        <h2>H02</h2>
+    </div>
+</body>
+</html>
