@@ -35,6 +35,36 @@ absolute                   relative
                             em
                             rem
 
+% unit is compared relative to the parent of the unit if uts 
+
+em (it take the refence to the parent )
+ nd rem (refence to the root i.e 16px)
+
+font and all em and rem 
+and for image % we will use
+sections we use vh(height) and vw(viewport width)
+
+
+font family should be multiple 
+
+fonts 
+text properties align
+                decoration
+                transform
+
+image filter
+
+
+BOX model
+
+TOTAL HEIGHT 
+box-sizing** content box
+             border box
+ if we dont define the color of the border it takes ups the
+ parent color
+
+ 
+
 
 
 
