@@ -64,6 +64,48 @@ box-sizing** content box
  parent color
 
  
+27/06
+
+
+CalC(agrument) {Referene is from parent}
+--var
+
+
+
+FLEX BOX
+
+flex container
+flex child(items)
+
+main axis along the x axis
+cross axis along y axis
+
+row column
+
+justfy is always on main axis
+align is always on cross asis {
+    Both in terms of ROW
+}
+and vice versa in the column 
+
+display flex
+flex direction
+flex wrap
+justfy-content and its properties
+align items  {stretch os the default value}
+all the above are the parents property
+
+alignself is the child property 
+flex-grow
+flex-shrink
+flex basis to give height and width specifically
+
+ORDER*** {BY default it is one all the order so if we do 2 then it goes to last}
+
+
+
+wrap
+flex flow
 
 
 
