@@ -105,7 +105,13 @@ ORDER*** {BY default it is one all the order so if we do 2 then it goes to last}
 wrap
 flex flow
 
-Css positioning and properties
+Css positioning and properties 
+Static by default
+Relative :- its relative to its own position
+Absolute :- wrt to immediate parent
+Fixed {yhis and absolute dont follow normal document flow}
+Sticky (for nav) top 0 
+
 
 
 
