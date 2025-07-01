@@ -109,7 +109,7 @@ Css positioning and properties
 Static by default
 Relative :- its relative to its own position
 Absolute :- wrt to immediate parent
-Fixed {yhis and absolute dont follow normal document flow}
+Fixed {this and absolute don't follow normal document flow}
 Sticky (for nav) top 0 
 
 
