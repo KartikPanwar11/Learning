@@ -1,0 +1,55 @@
+*{
+    /* height: 100vh; */
+    background-color: blanchedalmond;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+}
+img{
+    height: 50px;
+    width: 50px;
+    justify-content: flex-start;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.parent{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "S H A"
+    "S P C";
+    gap: 1rem;
+}
+.side{
+    grid-area: S;
+    background-color: black;
+}
+#home{
+    grid-area: H;
+    background-color: blueviolet;
+    
+}
+#about{
+    grid-area: A;
+    background-color: blue;
+}
+#projects{
+    grid-area: P;
+    background-color:rebeccapurple;
+}
+#contact{
+    grid-area: C;
+    background-color: aqua;
+}
+
+footer{
+    background-color: black;
+}

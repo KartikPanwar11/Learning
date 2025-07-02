@@ -6,4 +6,15 @@ grid-area (used to define the elements)
 
 for evenly distribution in grid system
  fr(fraction)
- 
+ repeat(no of times,how much space(auto,1fr,etc)) Works for responsiveness too
+ lg for very big screen
+ md for laptop/pc
+ md and sm both for tablets
+ sm for mobiles
+
+Positioning :-
+ Default Static
+ Fixed (Always on screen,attached to screen)
+ Sticky (according to viewport)
+ Relative (parent)
+ Absolute(Child)
