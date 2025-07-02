@@ -1,0 +1,9 @@
+Grid is combination of intersection of main axis and cross axis 
+Point of intersection is grid like it goes in both cross and main axis
+
+grid template areas ----> Parent like flex box
+grid-area (used to define the elements)
+
+for evenly distribution in grid system
+ fr(fraction)
+ 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gird</title>
+    <style>
+        .parent{
+            height: 100vh;
+            display: grid;
+            grid-template-areas: "H H H H"
+                                "SB C C C"
+                                "SB C C C" 
+                                "SB C C C" 
+                                "F F F F";
+        }
+        .header{
+            grid-area: H;
+            background-color: black;
+        }
+        .sidebar{
+            grid-area: SB;
+            background-color: Red;
+        }
+        .content{
+            grid-area: C;
+            background-color: greenyellow;
+        }
+        .footer{
+            grid-area: F;
+            background-color: blueviolet;
+        }
+        .child{
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child header">Header</div>
+        <div class="child sidebar">Sidebar</div>
+        <div class="child content">Content</div>
+        <div class="child footer">Footer</div>
+    </div>
+</body>
+</html>
