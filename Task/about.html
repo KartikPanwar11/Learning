@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        .parent{
+            height: 100vh;
+            display: flex;
+            padding: auto;
+
+        }
+        .two{
+            padding: 2rem;
+            /* border: 1px solid black; */
+        }
+
+        @media (min-width:790px) {
+            .parent{
+                background-color: beige;
+
+            }
+        }
+        @media (min-width:321px) and (max-width:789px){
+            .parent{
+                background-color: aqua;
+                flex-direction: column;
+            }
+            img{
+                width: 250px;
+                height: 250px;
+            }
+        }
+        @media (max-width:320px) {
+            .parent{
+                background-color: red;
+                flex-direction: column;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <div class="child one">
+            <img src="./blank-profile-picture-973460_960_720.webp">
+        </div>
+        <div class="child two">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro voluptatem, et qui eum ea suscipit nostrum magnam impedit soluta totam sed iure saepe reiciendis repudiandae voluptates quas nobis dignissimos!
+            </p>
+        </div>
+    </section>
+</body>
+</html>

@@ -18,3 +18,9 @@ Positioning :-
  Sticky (according to viewport)
  Relative (parent)
  Absolute(Child)
+
+
+Media Queries
+0.26mm = 1 px
+start with the smaller device at first
+
