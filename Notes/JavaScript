@@ -1,1 +1,14 @@
  
+JIT
+Compiled and interpreted lang (How it is this lang)
+Single Threaded
+Sync
+Call stack
+Web API's :- Messenger, when we req 3rd party info (kind of like storage)
+C.B(call back) queue (in use of delay)
+Micro task queue 
+event loop
+GEC (anonymous fn)
+
+
+
