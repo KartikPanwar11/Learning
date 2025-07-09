@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            height: 70vh;
+        }
+        .box{
+            background-color: blueviolet;
+            height: 50px;
+            width: 50px;
+            animation: box  3s infinite;
+        }
+
+        @keyframes box {
+            0%{
+                background-color: aqua;
+                transform: translateX(0vh)
+                            translateY(30vh)
+                            scale(1)
+                            rotate(0deg);
+            }
+            100%{
+                background-color: red;
+                transform: translateX(80vh)
+                translateY(30vh)
+                scale(1.5)
+                rotate(180deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>
