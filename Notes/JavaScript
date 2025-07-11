@@ -14,4 +14,14 @@ Shortest JS file
 
 Var Let COnst
 
+Hoisting :- before executing it will show undefined instead of any errors
+            this only occurs in terms of Var
+            In terms of let and const it will show ref errors
+
+Let and const will end up in Temporal dead zone coz it will be hoisted but it will be in scrip
+in the call stack which we called TDZ
+
+Stack V/s Heap wrt to data type
+
+
 
