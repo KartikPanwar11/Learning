@@ -23,5 +23,28 @@ in the call stack which we called TDZ
 
 Stack V/s Heap wrt to data type
 
+CONDITIONALS
+certain actions based on the conditions 
+if else basically
+
+do conditionals once again and solve the questions
+
+Operations :- AND && | OR ||        NOT or Negation ! 
+
+Loops :-
+
+
+
+
+
+
+Scope :-
+ Global Scope
+ Function Scope  Var is restricted to a function only when its in function 
+ Block Scope 
+
+Lexical Environment
+ 
+
 
 
