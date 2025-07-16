@@ -44,7 +44,20 @@ Scope :-
  Block Scope 
 
 Lexical Environment
+
+Spread Operator:
+ concat the arr :- arr1.concat(arr2)
+ instead of using concat i can use spread operator {let res= ...arr1,...arr2}
+ // all this for the first level Compiled
+
+Structured clone 
+Json stringify 
+above 2 method for more than one level arr and obj
+
+Rest parameter:-
+ just use ...parameter name 
+ see arr and obj.JS file to see
  
 
-
-
+Closures :-
+  

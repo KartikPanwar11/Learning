@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cloures</h1>
+    <script>
+        function outer(){
+            let value = 'KP';
+            function inner(){
+                console.log(value);
+            }
+            inner();
+        }
+        let res = outer();
+        console.log(res);
+        res();
+    </script>
+</body>
+</html>
