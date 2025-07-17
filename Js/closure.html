@@ -6,18 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Cloures</h1>
+    <h1>Closures</h1>
+    <button id="red">Red</button>
+    <button id="green">Green</button>
+    <button id="blue">Blue</button>
     <script>
-        function outer(){
-            let value = 'KP';
-            function inner(){
-                console.log(value);
+
+        document.getElementById('red').onclick = clickHandler('red');
+        document.getElementById('green').onclick = clickHandler('green');
+        document.getElementById('blue').onclick = clickHandler('blue');
+
+        function clickHandler(color) {
+            return function(){
+                document.body.style.color = color;
             }
-            inner();
         }
-        let res = outer();
-        console.log(res);
-        res();
+        console.log(clickHandler);
+        // function outer(){
+        //     let value = 'KP';
+        //     function inner(){
+        //         console.log(value);
+        //     }
+        //     inner();
+        // }
+        // let res = outer();
+        // console.log(res);
+        // res();
     </script>
 </body>
 </html>
