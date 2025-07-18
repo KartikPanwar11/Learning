@@ -47,3 +47,38 @@ Array.prototype.calculate=function (cb){
 }
 
 console.log(amount.calculate(calTenPercent))
+
+
+//map
+let arr2=[1,2,3,4,5,6];
+arr2.map((anything)=>{
+    console.log(anything*5);
+});
+
+//filter
+arr2.filter((kuchbhi)=>{
+    if(kuchbhi%2==0){
+        console.log(kuchbhi);
+    }
+})
+
+//reduce
+
+let add = arr2.reduce((element,container)=>{
+    return element + container;
+})
+console.log(add)
+
+
+// if we want to run all three at same time
+let allSum = arr2.map((ele)=>{
+    return ele*4
+    }).filter((ele)=>{
+        if (ele % 2 ==0){
+            return ele
+        }
+    }).reduce((ele,container)=>{
+        return ele + container
+    })
+
+    console.log(allSum)
