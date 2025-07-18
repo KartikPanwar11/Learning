@@ -65,9 +65,13 @@ Callback function
 all function type
 fn exp and declaration
 
-Callbacks 17/08
+Callbacks 17/07
 currying 
 ioc 
 high order function
 pyramid of hell
 
+dry principle //do not repeat ur function
+
+map // bts it runs a loop which we have done in HOF
+array.prototype
