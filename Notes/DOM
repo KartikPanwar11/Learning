@@ -1,0 +1,12 @@
+To select the tags
+ id
+ class
+ tag name
+ query selector
+ query selector all
+
+innerHTML
+innerText
+innerContent
+
+Html collection vs node list
