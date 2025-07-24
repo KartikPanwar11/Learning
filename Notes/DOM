@@ -1,3 +1,4 @@
+23/07/2025
 To select the tags
  id
  class
@@ -10,3 +11,9 @@ innerText
 innerContent
 
 Html collection vs node list
+
+To dynamically create the tags
+ we need to createElement to create the tag 
+ and append to append this
+
+setAttribute
