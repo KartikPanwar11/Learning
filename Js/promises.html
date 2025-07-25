@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    demo
+
+<script>
+    const GITHUB_API = 'https://api.github.com/users/KartikPanwar11'
+
+    fetch(GITHUB_API).then((response)=>{
+        if(response.ok){
+            alert('something went wrong')
+        }
+        return response.json()
+    })
+    .then((data)=>{
+        console.log(data);
+    }).catch((error)=>{
+        console.log(error)
+    }).finally(()=>{
+        console.log("data fetch sucessfully")
+    });
+
+
+</script>    
+</body>
+</html>
