@@ -1,0 +1,12 @@
+31/07
+
+node --watch file.js name
+while in start in the package.json file add the same line 3 cmd to it
+npm start
+
+
+file system :-
+ Write
+ Read
+ Append
+ Delete
