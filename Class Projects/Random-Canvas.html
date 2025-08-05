@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 600px;
+            width: 600px;
+            background-color: antiquewhite;
+            border: 1px solid black;
+        }
+
+        .circle{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+
+<script>
+    let parent = document.querySelector('.container')
+    let color= ['red','blue','green','yellow']
+    
+    parent.addEventListener('click',(e)=>{
+        let rndColor = Math.floor(Math.random() * color.length)
+        let circle = document.createElement('div');
+        circle.classList.add('circle');
+        circle.style.left = e.clientX - 50+'px';
+        circle.style.top = e.clientY - 50+'px';
+        circle.style.backgroundColor = color[rndColor];
+
+        parent.appendChild(circle);
+    })
+    
+    
+
+
+</script>
+</body>
+</html>
