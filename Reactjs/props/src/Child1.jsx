@@ -4,7 +4,7 @@ import Child2 from './Child2'
 const Child1 = (props) => {
   return (
     <div>
-        <Child2 propsfullName/>
+        <Child2 fullName={props.fullName}/>
     </div>
   )
 }

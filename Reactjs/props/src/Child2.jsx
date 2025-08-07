@@ -3,7 +3,7 @@ import React from 'react'
 const Child2 = (props) => {
   return (
     <div>
-        Name: {props.fullName}
+        <h1>Name: {props.fullName}</h1>
     </div>
   )
 }

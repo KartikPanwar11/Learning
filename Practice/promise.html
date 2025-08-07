@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Yo</h1>
+
+
+ <script>
+
+    // print hello world after 2 sec using promise
+    // function greet(){
+    //     return new Promise((resolve)=>{
+    //         setTimeout((resolve) => {
+    //             console.log('Hello World')
+    //         }, 2000);
+    //     })
+    // }
+    // greet()
+
+
+    //Randomly res and reject req
+    function random(){
+        return new Promise((res,rej)=>{
+            let ranNum = Math.random();
+            if(ranNum>0.5){
+                console.log('res')
+            }else{
+                console.log('Rejected')
+            }
+        })
+    }
+
+ </script>   
+</body>
+</html>
