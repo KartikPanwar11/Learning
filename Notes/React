@@ -10,4 +10,39 @@ state uplifting
 
 Hooks
 
- 
+use state
+use-effect
+Cleanup: function fn string etc return output clean
+sdlc
+
+API calls always use use-effect
+
+13/08/25
+the value number is getting same number always coz its getting rendered always when we increase the number
+our value is not persistent
+
+Useref
+ref is a refence who refs to existing value
+main case is in dom manipulation
+
+in react we use ref and there can be more than one ref
+Dom manipulation is not directly possible through react hence we need to use ref always
+
+parent
+child1  propdrilling
+child2
+
+1. general hooks: usestate Useref useeffect
+2. data: context api, usecontext 
+3. optimization hook: useMemo
+
+postman provider
+createcontext : make bridges between the child and the parent and prevents prop drilling 
+limitation: small scale application onlyy
+                  small state onlyy
+                  local state
+
+globally we use redux for many thing 
+flask and sst
+
+Technique: optimization tech --> useMemo
