@@ -9,6 +9,9 @@ const App = () => {
   refe2.current.style.color = 'blue';
   //dom manipulation using useRef
 
+  const refer3 = useRef();
+  refer3.current.style.backgroundColor = "purple";
+
 
   let inc = ()=>{
     setCount(count+1);
@@ -20,7 +23,7 @@ const App = () => {
   return (
     
     <div>
-      <button onClick={inc}>
+      <button onClick={inc} ref={refer3}>
         Count is {count}
       </button>
       <p ref={refe2}>Changing the color using ref</p>
