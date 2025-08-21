@@ -1,0 +1,10 @@
+Flask
+Single source of truth
+data aana jana one way i.e store
+before this prop drilling and context api have a cons therefore we use redux
+
+encrypted fast system
+add --> action(data) payload ---> Store --> Reducer/Slicer --> Through UI route forward it to [UI]
+
+useSelector [data bulate h ]
+ Benefits: 

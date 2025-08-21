@@ -1,0 +1,10 @@
+Why MongoDB??
+
+noSQL : document collection form i.e MongoDB
+Read write both are fast in noSQL
+More dynamic
+Most compatible with nodejs
+
+JWT
+Auth Context
+search sort filter
