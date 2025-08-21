@@ -1,12 +1,12 @@
-import React from 'react'
+import React,{memo} from 'react'
 
 const Child = (props) => {
-    console.log('Child running')
+    console.log('Child rendered')
   return (
     <div>
-        Count is:{props.count}
+        Count is:{props.count1}
     </div>
   )
 }
 
-export default Child
+export default memo(Child)
