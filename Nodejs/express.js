@@ -15,4 +15,4 @@ app.get('/product',(req,res)=>{
 
 app.listen(PORT,()=>{
     console.log(`Running on ${PORT}`)
-})
+});
