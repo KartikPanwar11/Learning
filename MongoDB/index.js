@@ -13,7 +13,6 @@ app.get('/',(req,res)=>{
 
 mongoose
     .connect(
-        'mongodb+srv://kartikpanwar1101_db_user:A8qirPoQlYwIm035@atlas.xa3yrig.mongodb.net/'
     )
     .then(()=>{
         console.log('Connected to DB')
